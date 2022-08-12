@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(60, 26, 91);
+}
+.row{
+    width: 100%;
+   
+}
+h4{
+    margin: 0%;
+    width: 100px;
+    text-align: right;
+    height: 40px;
+    font-size: 20px;
+    float: right;
+    background-color: rgb(209, 235, 108);
+}
+.full{
+    border: 2px solid black;
+    padding: 0;
+    height: 35%;
+    width: 33%;
+    background-color: rgb(101, 103, 113);
+}
+
+
+@media (min-width : 992px){
+    .full-1 , .full-2 , .full-3{
+        float: left;
+        margin: 1%;
+    }
+    .full-1{
+        width:31%;
+    }
+    .full-2{
+        width: 31%;
+    }
+    .full-3{
+        width: 31%;
+    }
+   
+}
+
+@media (min-width : 768px ) and (max-width : 991px){
+    .mid-1 , .mid-2 , .mid-3{
+        float: left;
+        margin: 1%;
+    }
+    .mid-1{
+        width: 47%;
+    }
+    .mid-2{
+        width: 47%;
+    }
+    .mid-3{
+        width: 96%;
+        
+    } 
+}
+@media (max-width : 767px) {
+    .small-1 , .small-2 , .small-3{
+        margin: 1%;
+    }
+    .small-2{
+        width : 100%; 
+    }
+    .small-1{
+        width : 100%; 
+    }
+    .small-3{
+        width : 100%; 
+    }
+    
+}
